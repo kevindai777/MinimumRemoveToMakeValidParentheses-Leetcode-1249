@@ -4,7 +4,7 @@
 let s = "lee(t(c)o)de)"
 
 
-//O(n) solution taht uses a stack.
+//O(n) solution that uses a stack and hashset to keep track of the indices to remove.
 
 let indexesToRemove = new Set()
 let stack = []
